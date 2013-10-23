@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="LondonBicycles.Client.Views.PrivacyStatement"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LondonBicycles.Client.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <Grid>
+        <StackPanel >
+            <TextBlock Margin="0,20,0,0" Foreground="#374789" 
+                       Text="London Bicycles is using Internet connection in order to provide to the client updated and precise information about availability of bicycles and docks in certain Barclays Cycle Hire Stations (information is updated each 3 minutes), calculating and visualising routes and performing search among all available hire stations. In order to provide relevant information, the application needs to know your location. The location service is crucial to this application and it will not work if not provided. London Bicycles does not record any personal information. 
+                       The only personal information it needs is the location of the client. Neither location nor other personal information is recorded or used by the application for purposes other than providing information to the client."
+                       FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="18" TextWrapping="Wrap" TextAlignment="Justify"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
